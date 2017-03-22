@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang=en-us>
+<head>
+	<title>fourthpage</title>
+	<meta charset=utf-8>
+	<meta name="description" content="Vinh Long, images">
+	<meta name="keywords" content="text, image,">
+	<meta name="author" content="Hoa Nguyen">
+	<style>
+		body{
+		background-color:#f5fffa;
+		}
+		#wrapper{
+		border-width:1px;
+		border-style: solid;
+		border-color:black;
+		margin: 0 auto;
+		width:950px;
+		background-color:#fffafa;
+		}
+		#mainHeader{
+		text-align:center;
+		vertical-align:bottom;
+		background-color:#cd5c5c;
+		height:75px;
+		}
+		#mainHeader h1{
+		font-size:300%;
+		}
+		#mainMenu{
+		background-color:#2e8b57;
+		height:40px;
+		}
+		#Footer{
+		background-color:#2e8b57;
+		height:40px;
+		}
+		#mainMenu ul, #Footer ul{
+		list-style-type: none;
+		padding:0px;
+		margin:0px;
+		}
+		#mainMenu ul li, #Footer ul li{
+		display: inline;
+		float: left;
+		}
+		#mainMenu ul li a, #Footer ul li a{
+		display: block;
+		padding: 10px 10px;
+		color:#fffaf0;
+		}
+		#mainMenu ul li a:hover, #footer ul li a:hover{
+		background-color: gray;
+		}
+		#article h1{
+		text-align:center;
+		color: blue;
+		font-size:250%;
+		}
+		#article figure{
+		float:left;
+		margin-top:15px;
+		margin-bottom:10px;
+		}
+		#article figure figcaption{
+		display:block;
+		font-weight:bold;
+		padding-top:.25em;
+		margin-bottom:1em;
+		border-bottom:1px solid black;
+		}
+		#article p{
+		text-indent:50px
+		}
+		#article ul{
+		margin:10px;
+		}
+		#last{
+		clear:left;
+		}
+		h2{
+		text-indent:15px;
+		color:blue
+		}
+		table{
+		margin:0 auto;
+		padding:10px;
+		}
+		#h1{
+		background-image: url("images/ruongluathumb.jpeg");
+		width:250px;
+		height:175px;
+		}
+		#h1:hover{
+		background-image:url("images/becathumb.jpeg");
+		}
+		#h2{
+		background-image: url("images/boatthumb.jpeg");
+		width:250px;
+		height:175px;
+		}
+		#h2:hover{
+		background-image:url("images/xethumb.jpeg");
+		}#h3{
+		background-image: url("images/mythuanbridgethumb.jpeg");
+		width:250px;
+		height:175px;
+		}
+		#h3:hover{
+		background-image:url("images/mythuanbridge1thumb.jpeg");
+		}
+		p{
+		font-family:"Times New Roman", Times, serif;
+		}
+		p:first-letter{
+		text-transform:uppercase;
+		}
+		#wrapper{
+		background: url(images/paper.jpeg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+	<header id="mainHeader">
+		<h1>My City</h1>
+	</header>
+	<nav id="mainMenu">
+		<ul>
+			<li><a href="firstpage.html">Resume</a></li>
+			<li><a href="secondpage.html">Video Gallery</a></li>
+			<li><a href="thirdpage.html">Images Gallery</a></li>
+			<li><a href="fourthpage.html">My City</a></li>
+			<li><a href="fifthpage.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	<article id="article">
+		<h1>Vinh Long</h1>
+		<p>Vinh Long, where I was born and grew up, is a small town in south of Vietnam. It locates between Tien River and Hau River which reiforece alluvium for argriculture
+		and supply water for aquiculture. There are around one and half milion people in this 1,475 square kilometer area. 
+		Vinh Long is divided in six districts, which are:</p>
+		<figure>
+			<a href="images/vinhlongmap.jpeg"><img src="images/vinhlongmapthumb.jpeg" alt="Vinh Long province" height="150" width="200"></a>
+			<figcaption>Vinh Long Province</figcaption>
+		</figure>
+		<ul>
+			<li>Binh Minh</li>
+			<li>Binh Tan</li>
+			<li>Long Ho</li>
+			<li>Mang Thit</li>
+			<li>Tam Binh</li>
+			<li>Tra On</li>
+			<li>Vung Liem</li>
+		</ul>
+		 
+		<p id="last">Because of surounding by rivers, boats, cannos, and ferry-boats had 
+		become the main transpot at Vinh Long. Hoverower, they are have beean replacing by road vehicle since infastruture were improve. The most famous architechture is My Thuan Bridge 
+		which is the longest and most beautiful bridge in Vinh Long. It was built by Bilfinger Berger and completed in 2000. My thuan has made traffic flow better, and it also cconnects 
+		people from both side of Tien River. Vinh Long is famous for eco-tourism zone with many kind of tropical fruits and fresh air.</p>
+	</article>
+		<h2>Images</h2>
+		<table>
+			<tr>
+				<td id="h1"></td>
+				<td id="h2"></td>
+				<td id="h3"></td>
+			</tr>
+		</table>	
+	<footer id="Footer">
+		<ul>
+			<li><a href="firstpage.html">Resume</a></li>
+			<li><a href="secondpage.html">Video Gallery</a></li>
+			<li><a href="thirdpage.html">Images Gallery</a></li>
+			<li><a href="fourthpage.html">My City</a></li> 
+			<li><a href="fifthpage.html">Contact Me</a></li>
+		</ul>
+	</footer>
+	<p style="text-align:center;">&copy; 2014-Hoa Nguyen</p>
+	<script type='text/javascript'> //<!--[CDATA[
+	document.write ("<a href='http://validator.w3.org/check?uri=" +
+	location.href+ "\;ss=1;verbose=1' target='display'>" +
+	"<img src='http://gblearn.com/comp1223/wp-content/uploads/2013/09/HTML5_Logo_256.png' " +
+	"width='50' height='50' border='0' " +
+	"alt='Valid HTML5.' " +
+	"title='Valid HTML5' /></a>")
+	dt=new Date(document.lastModified);
+	document.write("<small>This page was last modified on " +
+	dt.toLocaleString() + "</small>")
+//]]-->
+	</script>
+	<p>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+			<img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+		</a>
+	</p>
+	</div>
+</body>
+</html>
